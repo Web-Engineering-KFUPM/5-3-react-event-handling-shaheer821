@@ -21,6 +21,7 @@ export default function TaskApp() {
   
   const handleClearAll = () => {
     // TODO: set tasks to empty array
+    setTasks([]);
   };
 
   return (
@@ -42,7 +43,6 @@ export default function TaskApp() {
         </button>
         
       </div>
-          
       
       {/*Render Task List and Enable Delete */}
       {/*Pass tasks and onDelete */}
