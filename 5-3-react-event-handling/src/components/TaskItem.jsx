@@ -1,5 +1,6 @@
 import React from "react";
 import TaskList from "./TaskList";
+import TaskApp from "./TaskApp";
 
 export default function TaskItem({ id, text, onDelete }) {
   return (
@@ -15,7 +16,7 @@ export default function TaskItem({ id, text, onDelete }) {
           className="iconBtn iconBtn--danger"
           aria-label="Delete task"
           title="Delete"
-          // TODO: onClick={() => onDelete(id)}
+          onClick={() => onDelete(id)}
         >
           🗑️
         </button>
