@@ -6,7 +6,6 @@ export default function TaskApp() {
   const [text, setText] = useState("");
 
   const handleSubmit = () => {
-   
   };
 
   
